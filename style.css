@@ -1,0 +1,104 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: hsla(141, 54%, 86%, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 30px;
+    background: url(https://source.unsplash.com/E8Ufcyxz514/2400x1823) center / cover no-repeat fixed;
+}
+.container{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3.5px );
+    -webkit-backdrop-filter: blur( 3.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 30px 30px;
+    width: 400px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 15px;
+    font-family: 'Poppins',sans-serif;
+    box-shadow: 25px 25px 30px rgba(0,0,0,0.15);
+}
+.container h1{
+    border-radius:10px;
+    padding: 15px;
+box-shadow: 0 0 20px rgba(139, 140, 141, 0.25);
+margin-bottom: 60px;
+	color: rgb(106, 25, 163);
+	text-align: center;
+	font-size: 23px;
+	letter-spacing: 1px;
+    border: none;
+    padding:10px;
+    border-radius:10px 10px 0px 0px;
+	margin-top: -32px;
+	margin-left: -30px;
+	margin-right: -30px;
+	margin-bottom: 40px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.row span{
+    font-weight: 500;
+}
+input[type="range"]{
+    width: 70%;
+    height: 3.5px;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #dcdcdc;
+    border-radius: 3px;
+    outline: none;
+}
+input[type="range"]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    height: 15px;
+    width: 15px;
+    background-color: #ce1dbc;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#result{
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #0be881;
+}
+#category{
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+input#weight,input#height{
+    background-color: white;
+}
+ 
+.display{
+    border-radius:10px;
+    padding: 15px;
+box-shadow: 0 0 20px rgba(0,139,253,0.25);
+margin-bottom: 60px;
+background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 3.5px );
+-webkit-backdrop-filter: blur( 3.5px );
+}
